@@ -30,7 +30,7 @@ class MainMenuTableViewController : UITableViewController {
         MenuDidTouch.target = self.revealViewController()
         MenuDidTouch.action = Selector("revealToggle:")
         
-        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        //self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         
         //Set Bar color
         self.navigationController!.navigationBar.barTintColor = UIColorFromRGB(0xEAA32F)
